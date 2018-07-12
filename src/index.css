@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html, body{
+	margin:0;
+	padding:0;
+}
+.logo{
+	text-align:center;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:15%;
+	padding:10%;
+	background:url('/bg.jpg');
+	background-size:cover;
+	color:#fff;
+	font-weight:700;
+	-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.app{
+	margin:0 auto; 
+	width:500px;
+	max-width:500px;
+	height:500px;
+}
+.wrapper{
+	margin:0 auto;
+}
+.wrapper-form{
+	margin:50px auto;
+	width:350px;
+}
+.wrapper-google{
+	margin:50px auto;
+	width:320px;
+}
+.wrapper-logout{
+	margin:30px auto;
+	width:95%;
+}
+.user-profile{
+	  vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.container{
+	margin:0 auto;
+	width:500px;
+	max-width:500px;
+}
+.black-background {background-color:#555;}
+.display-item{
+	margin-top:35px;
+}
+ul li{
+	list-style-type:none;
+	border-bottom: 1px solid #777;
+	padding-top:20px;
+	padding-bottom:35px;
+}
+#display-item-wrapper {
+    width: 500px;
+    
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 180px;
+    float:left; /* add this */
+    /*border: 1px solid red;*/
+		/*padding-bottom:25px;*/
+}
+#second {
+    /*border: 1px solid green;*/
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+		font-size:1em;
+		line-height:1;
+}
+.line{
+	border-bottom:2px solid #777;
+}
+.moment{
+	font-size:0.5em;
+}
+.pointer{
+	cursor:pointer;
+	font-weight:700;
+	color:#777;
+}
